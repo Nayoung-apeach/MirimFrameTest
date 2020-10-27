@@ -12,18 +12,22 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
+        android:layout_marginBottom="10dp"
         >
         <Button
+            android:id="@+id/btn_Park"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="박세리"
             />
         <Button
+            android:id="@+id/btn_Son"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="손예진"
             />
         <Button
+            android:id="@+id/btn_Aan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="안현모"
@@ -33,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
+            android:id="@+id/linear_Park"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffff00"
@@ -45,6 +50,7 @@
                 />
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/linear_Son"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#E91E63"
@@ -57,6 +63,7 @@
                 />
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/linear_Aan"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#FFC107"
